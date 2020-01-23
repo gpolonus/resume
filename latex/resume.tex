@@ -1,0 +1,255 @@
+
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+% move education to the bottom and remove GPA, you have experience to cover those things
+% specialize the resume to the job
+%     dev stuff for developer jobs
+%     manager stuff for more manager jobs
+% change 'convinced' verb
+% underline personal website URL
+% Add react app work
+% make the dates line up
+% go to second page if you can
+% sprinkle in the different programming languages and libraries you had to use to do thing
+% having the bolded parts in front of the settings is technically a skills section that will draw people towards the details they want to get to
+% maybe split into separate page and include more job responsibilities
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand{\familydefault}{\sfdefault}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{\large{#1}} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeJobTitle}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeWorkProject}[1]{
+  \resumeJobTitle{\textbf{#1}}{}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+% ,label={}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Huge Griffin Polonus} & \href{https://grifstuf.com}{grifstuf.com}\\
+   \href{mailto:gpolonus@gmail.com}{gpolonus@gmail.com} & (309) 678 - 0928\\
+\end{tabular*}
+
+
+%-----------EXPERIENCE-----------------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+
+
+
+%-----------HON-----------------
+
+    \resumeSubheading
+        {The HON Company}{Muscatine, IA}
+        {Senior Programmer Analyst}{Aug 2019 - Present}
+        \resumeItemListStart
+
+            \resumeItem{DevOps Pipeline}
+            {Utilized Docker, TeamCity, Octopus, and bash scripting to create a Continuous Integration and Deployment pipeline that reduced time taken to deploy new changes to testing environments in Acquia}
+            % {Established a Continuous Integration and Deployment pipeline using Docker, TeamCity, Octopus, Acquia, and bash scripting that reduced time taken to release new changes to testing environments}
+
+            \resumeItem{Elasticsearch Data Migration}
+            {Created a migration tool to pull 3D Design data from a remote REST API then send the data to an Elasticsearch cluster with PHP using the Drupal Migrate API}
+
+            \resumeItem{Development Architecture}
+            {Designed the solution architecture for all of the functionalities of the HON Company's site refresh project, such as data migrations, internal site search, and interactive multi-dimensional product configuration}
+
+            \resumeItem{Project Management}
+            {Oversaw development workflow and requirement gathering to ensure high throughput}
+
+            % \resumeItem{Code Standards}
+            % {Determined and documented the team's coding standards for the new project including functional programming, immutability, Behat for behavioral testing and PHPUnit for unit testing, and the CSS BEM methodology}
+
+            % \resumeItem{Consultant Collaboration}
+            % {Facilitated brainstorming sessions with consultants aimed at discovering and designing implementation solutions for new functionality}
+
+            % \resumeItem{Interviewing Candidates}
+            % {Determined the hirability of new candidates for developer and project manager positions after several team members had left the company}
+
+            % \resumeItem{Simplified Data Hierarchy}
+            % {Constructed a product data schema that optimized the queries behind the configuration functionality of our company's thousands of product offerings}
+
+            % \resumeItem{Team Systems Lead}
+            % {}
+
+            % \resumeItem{Search Optimization}
+            % {Researched alternatives solutions when our site's internal search was too slow and then switched to the Drupal community Search API modules at no extra cost}
+            % {Persuaded leadership to switch to the Drupal community Search API modules in order to reduce response time and simplify our search infrastructure at no extra cost}
+
+        \resumeItemListEnd
+
+    \resumeJobTitle
+        {Programmer Analyst}{Jan 2018 - Aug 2019}
+        \resumeItemListStart
+
+            \resumeItem{Drupal Site Development}
+            {Wrote PHP, HTML, CSS, and JavaScript on a daily basis in order to add new functionality to or fix bugs on the HON Company's website}
+
+            \resumeItem{React Configurator}
+            {Designed and implemented a new Configurator application using the React framework, Redux, and our Product Data REST API}
+
+            % \resumeItem{Development Process Enhancement}
+            % {Collaborated on a team to design a new development and deployment process for the inclusion of Kanban into our day to day processes}
+
+            \resumeItem{C\# Self-Taught Expertise}
+            {Learned and utilized C\#.NET in order to add sorting to a REST API used by the entire corporation that wrapped an Elasticsearch cluster}
+
+            % \resumeItem{Self-Taught Expertise}
+            % {Became the subject matter expert of our internal site's search when no one else knew how it functioned then made enhancements to that functionality}
+
+            \resumeItem{Data Warehouse Migration}
+            {Enabled site administrators to import and update content more freely by designing and creating a new data migration suite using the Drupal Migrate Module that reduced their import time by 300\%}
+
+            % \resumeItem{Onboarding Materials}
+            % {Designed a programming presentation for new developers with the goal of establishing the baseline coding knowledge set and promoting developer comradery}
+
+            \resumeItem{Release Management}
+            {Owned the release processes of our production site that sees over two million visitors each year}
+
+            \resumeItem{Code Reviews}
+            {Critiqued the code of other developers on the team on a daily basis in order to adhere to our code standards and ensure codebase quality}
+        \resumeItemListEnd
+
+
+
+
+%-----------TSG-----------------
+
+    \resumeSubheading
+      {Technology Services Group (TSG)}{Chicago, IL}
+      {Software Developer}{Sep 2016 - Jan 2018}
+
+
+%-----------Open Annotate Video (OAV)-----------------
+    \resumeWorkProject{Open Annotate Video Application}
+        \resumeItemListStart
+            \resumeItem{Angular 4}
+                {Quickly learned and utilized TypeScript in the Angular 4 framework for development on this application}
+            % \resumeItem{Research and Testing}
+                % {Implemented and tested new libraries and features quickly in order to determine their usefulness in the scope of this application}
+            \resumeItem{Network Proxy}
+                {Utilized an Apache Server as a front for a Tomcat server to connect this application to the business's document repository and accompanying applications without errors}
+        \resumeItemListEnd
+
+
+%-----------New York Philharmonic-----------------
+    \resumeJobTitle{\textbf{\href{https://archives.nyphil.org/index.php/about-partners}{New York Philharmonic Client Project}}}{}
+      \resumeItemListStart
+        \resumeItem{Java OpenMigrate Framework}
+            {Organized and configured seven instances of document migrations using the company's OpenMigrate Java Spring application for building and running custom document migrations}
+        \resumeItem{Hadoop Document Migration}
+            {Developed the specialized migrations of musical documents from an outdated Alfresco repository to a new Hadoop instance}
+        % \resumeItem{Migration Plan}
+            % {Constructed and implemented a migration plan for moving 9 terabytes of data before their Alfresco license expired}
+        % \resumeItem{Automated Business Operations}
+            % {Created the plan for the automated ingestion of new documents to their archive of musical documents based on their existing business processes}
+        % \resumeItem{Effective Interface Integration}
+            % {Consolidated their migration processes from existing in several separate applications to being custom actions inside of one centralized interface}
+        % \resumeItem{Business Analysis}
+            % {Held meetings with the client to ascertain details about their old system and to demonstrate the use of the new system that was being introduced to them}
+      \resumeItemListEnd
+
+
+%-----------Projects-----------------
+
+    \section{Projects}
+        \resumeItemListStart
+            \resumeItem{Custom Node.js Static Site Generation}
+                {Utilized Node.js and Mustache to create a custom build process on the Zeit hosting platform service to serve my personal site}
+            \resumeItem{Hyperapp Socket Application}
+                {Created a web application with Hyperapp that serves lines of a script to participants' phones from a Node.js Socket.io server running on DigitalOcean so that they could act out a play in real time}
+            \resumeItem{Mancala Artificial Intelligence}
+                {Wrote a program in Node.js that would recursively play every possible game of Mancala and estimate the probability of winning based on a given move}
+            \resumeItem{WebRTC Remote Soundboard}
+                {Utilized React Hooks, a Node.js Socket server, and WebRTC P2P connections in order to allow several clients to play sounds from a soundboard on one device}
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Bradley University}{Peoria, IL}
+      {Bachelors of Science in Computer Science and Mathematics}{May 2016}
+  \resumeSubHeadingListEnd
+
+
+
+
+%-------------------------------------------
+\end{document}

@@ -1,0 +1,11 @@
+Node.js
+I've built REST APIs with Express in Node.js for personal projects, but I am curious about how large-scale projects use Node.js to create microservices. I hope to learn more about this in my career and through personal research.
+
+C++
+After learning C++ in college I haven't had the opportunity to use C++ in a professional context. I want to know how to write C++ with the goal of making the complex parts of a system more resource efficient and faster. To accomplish this I have plans to work on a personal project that will map out every possible decision path of the game Mancala in order to create the perfect opponent AI.
+
+WebAssembly
+This technology is incredibly interesting and provides an innovative and performant way to create novel user experiences that would differentiate a site from its competitors. Learning WebAssembly should be very accessible with online resources and the availability of tools like AssemblyScript that compiles TypeScript to WebAssembly.
+
+Search Engine Optimization
+I want to use as many SEO tools on my personal blog as possible in order to drive traffic. I have a wealth of online resources and fellow site administrator friends that I will draw upon for ideas and advice.
