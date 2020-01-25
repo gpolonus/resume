@@ -22,7 +22,7 @@ skillSections:
   - title: Backend
     skills:
       - Node and Express.js
-      - Java/Spring
+      - Java Spring
       - Drupal
       - Apollo GraphQL
       # - Flask
