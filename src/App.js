@@ -42,7 +42,7 @@ const Project = ({ p: { title, lines }}) => (
 const Role = ({ r: { title, lines, when, projects } }) => console.log({ title, lines, when, projects }) || (
   <div className="Role">
     <div className="title">
-      { title }<Pipe />{ when }
+      <strong>{ title }</strong><Pipe />{ when }
     </div>
     {
       !!lines && <Lines lines={lines} />
