@@ -158,7 +158,7 @@ function App() {
             { e.place }<Pipe />{ e.where }<Pipe />{ e.when }
           </div>
           <div>
-            <strong>{ e.degree }:</strong>{ e.major }
+            <strong>{ e.degree }:</strong> { e.major }
           </div>
         </div>
       </Section>
