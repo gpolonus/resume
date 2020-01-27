@@ -45,8 +45,15 @@ companies:
     where: Muscatine IA
     roles:
       - title: Senior Programmer Analyst
-        when: September 2019 - Present
+        # when: September 2019 - Present
+        when: December 2018 - Present
         lines:
+          - prefix: React Configurator
+            content: Designed and implemented a new Configurator application using the React framework, Redux, and our Product Data REST API
+
+          - prefix: Release Management
+            content: Owned the release processes of our production site that sees over two million visitors each year
+
           - prefix: DevOps Pipeline
             content: Utilized Docker, TeamCity, Octopus, and bash scripting to create a Continuous Integration and Deployment pipeline that reduced time taken to deploy new changes to testing environments in Acquia
             # content: Established a Continuous Integration and Deployment pipeline using Docker, TeamCity, Octopus, Acquia, and bash scripting that reduced time taken to release new changes to testing environments
@@ -61,8 +68,8 @@ companies:
             content: Oversaw development task workflow and requirement gathering in Jira to ensure high throughput
             # Experience breaking down implementation tasks, mentoring team members, and assigning duties
 
-          # - prefix: Code Standards
-          #   content: Determined and documented the team's coding standards for the new project including functional programming, immutability, Behat for behavioral testing and PHPUnit for unit testing, and the CSS BEM methodology
+          - prefix: Code Standards
+            content: Determined and documented the team's coding standards for the new project including functional programming, immutability, Behat for behavioral testing and PHPUnit for unit testing, and the CSS BEM methodology
 
           # - prefix: Consultant Collaboration
           #   content: Facilitated brainstorming sessions with consultants aimed at discovering and designing implementation solutions for new functionality
@@ -79,17 +86,15 @@ companies:
           # - prefix: Search Optimization
           #   content: Researched alternatives solutions when our site's internal search was too slow and then switched to the Drupal community Search API modules at no extra cost
             # content:Persuaded leadership to switch to the Drupal community Search API modules in order to reduce response time and simplify our search infrastructure at no extra cost
-      - title: Programmer Analyst
-        when: December 2018 - September 2019
-        lines:
-          - prefix: Drupal Site Development
-            content: Wrote PHP, HTML, CSS, and JavaScript on a daily basis in order to add new functionality to or fix bugs on the HON Company's website
-
-          - prefix: React Configurator
-            content: Designed and implemented a new Configurator application using the React framework, Redux, and our Product Data REST API
+      # - title: Programmer Analyst
+      #   when: December 2018 - September 2019
+      #   lines:
 
           # - prefix: Development Process Enhancement
           #   content: Collaborated on a team to design a new development and deployment process for the inclusion of Kanban into our day to day processes
+
+          - prefix: Code Reviews
+            content: Critiqued the code of other developers on the team on a daily basis in order to adhere to our code standards and ensure codebase quality
 
           - prefix: C# Self-Taught Expertise
             content: Learned and utilized C#.NET in order to add sorting to a REST API used by the entire corporation that wrapped an Elasticsearch cluster
@@ -100,14 +105,12 @@ companies:
           - prefix: Data Warehouse Migration
             content: Enabled site administrators to import and update content more freely by designing and creating a new data migration suite using the Drupal Migrate Module that reduced their import time by 300%
 
+          - prefix: Drupal Site Development
+            content: Wrote PHP, HTML, CSS, and JavaScript on a daily basis in order to add new functionality to or fix bugs on the HON Company's website
+
           # - prefix: Onboarding Materials
           #   content: Designed a programming presentation for new developers with the goal of establishing the baseline coding knowledge set and promoting developer comradery
 
-          - prefix: Release Management
-            content: Owned the release processes of our production site that sees over two million visitors each year
-
-          - prefix: Code Reviews
-            content: Critiqued the code of other developers on the team on a daily basis in order to adhere to our code standards and ensure codebase quality
   - title: Technology Services Group (TSG)
     where: Chicago IL
     roles:
