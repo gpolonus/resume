@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: 'Lato', sans-serif;
 }
 
 .App {
@@ -22,13 +23,13 @@ body {
 }
 
 .Header h1 {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Noto Serif', serif;
   margin: 0;
   padding: 6px 0 6px 0;
 }
 
 .Header div {
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 
 .Section {
@@ -52,11 +53,11 @@ body {
   background: white;
   padding: 0 6px;
   font-weight: bold;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Noto Serif', serif;
 }
 
 .Section .contents {
-  font-size: 0.85em;
+  font-size: 0.87em;
   text-align: center;
 }
 
