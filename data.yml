@@ -1,158 +1,65 @@
-name: Griffin Polonus
-phone: '309-678-0928'
-email: gpolonus@gmail.com
-website: grifstuf.com
+name: Enriqueta Polonus
+phone: '309-678-9253'
+email: egpolonus@gmail.com
 skillSections:
-  - title: Languages
-    skills:
-      - JavaScript
-      - TypeScript
-      # - HTML, CSS, and SCSS
-      # - Clojure
-      - Java
-      - PHP
-      - Haskell
-      # - Python
-  - title: Frontend
-    skills:
-      - React
-      - Redux
-      - Webpack, Rollup
-      - Jasmine
-  - title: Backend
-    skills:
-      - Node and Express.js
-      - Java Spring
-      - Drupal
-      - Apollo GraphQL
-      # - Flask
-  - title: Databases
-    skills:
-      - Elasticsearch
-      - SQL, SQLite, MySQL
-      - MongoDB
-      - HBase / Hadoop
-      # - Solr
-  - title: DevOps Tools
-    skills:
-      - Docker
-      - Git
-      - Bash Scripting
-      - TeamCity
-      - Octopus
+  - skills:
+      - Spanish (Native Speaker)
+      - French
+      - Advanced Excel Formulas
+      - Microsoft Power BI and DAX
+      - Power Query and Power Pivot
+  - skills:
+      - APICS Member – CPIM Expected March 2020
+      - Junior Achievement
+      - Young Professionals Network
+      - Women in STEM
+
+
+
 companies:
-  - title: The HON Company
+  - title: HNI Corporation
     where: Muscatine IA
     roles:
-      - title: Senior Programmer Analyst
-        # when: September 2019 - Present
-        when: December 2018 - Present
+      - title: Supply Chain Analyst II
+        when: September 2019 - Present
         lines:
-          - prefix: React Configurator
-            content: Designed and implemented a new Configurator application using the React framework, Redux, and our Product Data REST API
-
-          - prefix: Release Management
-            content: Owned the release processes of our production site that sees over two million visitors each year
-
-          - prefix: DevOps Pipeline
-            content: Utilized Docker, TeamCity, Octopus, and bash scripting to create a Continuous Integration and Deployment pipeline that reduced time taken to deploy new changes to testing environments in Acquia
-            # content: Established a Continuous Integration and Deployment pipeline using Docker, TeamCity, Octopus, Acquia, and bash scripting that reduced time taken to release new changes to testing environments
-
-          - prefix: Development Architecture
-            content: Designed the solution architecture for all of the functionalities of the HON Company's site refresh project, such as data migrations, internal site search, and interactive multi-dimensional product configuration
-
-          - prefix: Elasticsearch Data Migration
-            content: Created a migration tool to pull 3D Design data from a remote REST API then send the data to an Elasticsearch cluster with PHP using the Drupal Migrate API
-
-          - prefix: Project and Task Management
-            content: Oversaw development task workflow and requirement gathering in Jira to ensure high throughput
-            # Experience breaking down implementation tasks, mentoring team members, and assigning duties
-
-          - prefix: Code Standards
-            content: Determined and documented the team's coding standards for the new project including functional programming, immutability, Behat for behavioral testing and PHPUnit for unit testing, and the CSS BEM methodology
-
-          # - prefix: Consultant Collaboration
-          #   content: Facilitated brainstorming sessions with consultants aimed at discovering and designing implementation solutions for new functionality
-
-          # - prefix: Interviewing Candidates
-          #   content: Determined the hirability of new candidates for developer and project manager positions after several team members had left the company
-
-          # - prefix: Simplified Data Hierarchy
-          #   content: Constructed a product data schema that optimized the queries behind the configuration functionality of our company's thousands of product offerings
-
-          # - prefix: Team Systems Lead
-          #   content: ''
-
-          # - prefix: Search Optimization
-          #   content: Researched alternatives solutions when our site's internal search was too slow and then switched to the Drupal community Search API modules at no extra cost
-            # content:Persuaded leadership to switch to the Drupal community Search API modules in order to reduce response time and simplify our search infrastructure at no extra cost
-      # - title: Programmer Analyst
-      #   when: December 2018 - September 2019
-      #   lines:
-
-          # - prefix: Development Process Enhancement
-          #   content: Collaborated on a team to design a new development and deployment process for the inclusion of Kanban into our day to day processes
-
-          - prefix: Code Reviews
-            content: Critiqued the code of other developers on the team on a daily basis in order to adhere to our code standards and ensure codebase quality
-
-          - prefix: C# Self-Taught Expertise
-            content: Learned and utilized C#.NET in order to add sorting to a REST API used by the entire corporation that wrapped an Elasticsearch cluster
-
-          # - prefix: Self-Taught Expertise
-          #   content: Became the subject matter expert of our internal site's search when no one else knew how it functioned then made enhancements to that functionality
-
-          - prefix: Data Warehouse Migration
-            content: Enabled site administrators to import and update content more freely by designing and creating a new data migration suite using the Drupal Migrate Module that reduced their import time by 300%
-
-          - prefix: Drupal Site Development
-            content: Wrote PHP, HTML, CSS, and JavaScript on a daily basis in order to add new functionality to or fix bugs on the HON Company's website
-
-          # - prefix: Onboarding Materials
-          #   content: Designed a programming presentation for new developers with the goal of establishing the baseline coding knowledge set and promoting developer comradery
-
-  - title: Technology Services Group (TSG)
-    where: Chicago IL
-    roles:
-      - title: Software Developer
-        when: Septemper 2016 - January 2018
+          - content: Pioneered the use of Microsoft Power BI at HNI and helped other functional areas integrate this tool into their reporting structure
+          - content: Recovered 40 labor hours by transitioning reports and manual processes to Microsoft Power BI
+          - content: Created and tracked performance metrics for order execution and order experience using Microsoft Power BI
+          - content: Led and participated in Rapid Continuous Improvement events inside and outside my functional area
+          - content: Directed quarterly meetings with operations and marketing leadership to review standard lead times for all our product offerings across all brands
+      - title: Supply Chain Analyst I
+        when: May 2018 – September 2019
+        lines:
+          - content: Generated over 1 million dollars in cost savings over one year by processing and analyzing orders in Oracle EBS to level out distribution center capacity
+          - content: Achieved over 90% lead time compliance for our four major brands by reviewing production capacity and working with schedulers
+          - content: Supported IT in implementing a new customer facing E-Ordering and quoting system
+      - title: Supply Chain Analyst – Early Career Rotational Program
+        when: June 2017 - May 2018
         projects:
-          - title: Open Annotate Video Application Project
+          - title: Transportation
             lines:
-              - prefix: Angular 4
-                content: Quickly learned and utilized TypeScript in the Angular 4 framework for development on this application
-              # - prefix: Research and Testing
-              #   content: Implemented and tested new libraries and features quickly in order to determine their usefulness in the scope of this application
-              - prefix: Network Proxy
-                content: Utilized an Apache Server as a front for a Tomcat server to connect this application to the business's document repository and accompanying applications without errors
-
-          - title: New York Philharmonic Client Project
+              - content: Evaluated one of our delivery programs that resulted in a $250,000 cost reduction opportunity and better customer delivery experience
+              - content: Uncovered $500,000 in extra delivery costs due to sourcing issues
+              - content: Assisted in the company wide transition from an in-house ERP system to Oracle’s ERP system
+          - title: Master Planning
             lines:
-              - prefix: Java OpenMigrate Framework
-                content: Organized and configured seven instances of document migrations using the company's OpenMigrate Java Spring application for building and running custom document migrations
-              - prefix: Hadoop Document Migration
-                content: Developed the specialized migrations of musical documents from an outdated Alfresco repository to a new Hadoop instance
-              # - prefix: Migration Plan
-              #   content: Constructed and implemented a migration plan for moving 9 terabytes of data before their Alfresco license expired
-              # - prefix: Automated Business Operations
-              #   content: Created the plan for the automated ingestion of new documents to their archive of musical documents based on their existing business processes
-              # - prefix: Effective Interface Integration
-              #   content: Consolidated their migration processes from existing in several separate applications to being custom actions inside of one centralized interface
-              # - prefix: Business Analysis
-              #   content: Held meetings with the client to ascertain details about their old system and to demonstrate the use of the new system that was being introduced to them
-projects:
-  - prefix: Custom Node.js Static Site Generation
-    content: Utilized Node.js and Mustache to create a custom build process on the Zeit hosting platform service to serve my personal site
-  - prefix: Hyperapp Socket Application
-    content: Created a web application with Hyperapp that serves lines of a script to participants' phones from a Node.js Socket.io server running on DigitalOcean so that they could act out a play in real time
-  - prefix: Mancala Artificial Intelligence
-    content: Wrote a program in Node.js that would recursively play every possible game of Mancala and estimate the probability of winning based on a given move
-  - prefix: WebRTC Remote Soundboard
-    content: Utilized React Hooks, a Node.js Socket server, and WebRTC P2P connections in order to allow several clients to play sounds from a soundboard on one device
+              - content: Created a process to report product lead times to the market on a weekly basis creating a time savings of 8+ hours per week
+          - title: New Product Introduction
+            lines:
+              - content: Worked with our suppliers to prepare EAUs for all our new products and upcoming discontinuations
+              - content: Conducted supplier evaluations to determine the best supplier for our new products
+          - title: Quality Engineering
+            lines:
+              - content: Constructed an electronic production control board to stop quality issues on the production line and record valuable quality data in real time
+              - content: Performed a PFMEA for the sewing production cell to increase line efficiency, reduce quality issues, and provide a better work environment for the employees
+          - title: Long Lead Time Group
+            lines:
+              - content: Created a supplier scorecard to track supplier performance on KPIs and create mutual accountability with our suppliers
 education:
   place: Bradley University
   where: Peoria IL
-  when: Graduated May 2016
+  when: Graduated May 2017
   degree: Bachelor's of Science
-  major: Computer Science and Mathematics
+  major: Marketing – Global Supply Chain Management, International Business, French
 

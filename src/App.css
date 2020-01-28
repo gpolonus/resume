@@ -56,8 +56,19 @@ body {
 }
 
 .Section .contents {
-  font-size: 0.8em;
+  font-size: 0.85em;
   text-align: center;
+}
+
+.Section > .contents > .ObjectiveWrapper {
+  text-align: center;
+}
+
+.Section > .contents > .ObjectiveWrapper > .Objective {
+  width: 90%;
+  text-align: center;
+  font-size: 0.85em;
+  display: inline-block;
 }
 
 .Section > .contents > .skillsWrapper {
@@ -95,6 +106,7 @@ body {
 
 .Project > .title {
   font-size: 0.9em;
+  text-decoration: underline;
 }
 
 .Lines > ul {
@@ -110,4 +122,5 @@ body {
 
 .Education > div {
   padding: 3px 0;
+  font-size: 0.85em;
 }

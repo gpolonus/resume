@@ -1,0 +1,158 @@
+name: Griffin Polonus
+phone: '309-678-0928'
+email: gpolonus@gmail.com
+website: grifstuf.com
+skillSections:
+  - title: Languages
+    skills:
+      - JavaScript
+      - TypeScript
+      # - HTML, CSS, and SCSS
+      # - Clojure
+      - Java
+      - PHP
+      - Haskell
+      # - Python
+  - title: Frontend
+    skills:
+      - React
+      - Redux
+      - Webpack, Rollup
+      - Jasmine
+  - title: Backend
+    skills:
+      - Node and Express.js
+      - Java Spring
+      - Drupal
+      - Apollo GraphQL
+      # - Flask
+  - title: Databases
+    skills:
+      - Elasticsearch
+      - SQL, SQLite, MySQL
+      - MongoDB
+      - HBase / Hadoop
+      # - Solr
+  - title: DevOps Tools
+    skills:
+      - Docker
+      - Git
+      - Bash Scripting
+      - TeamCity
+      - Octopus
+companies:
+  - title: The HON Company
+    where: Muscatine IA
+    roles:
+      - title: Senior Programmer Analyst
+        # when: September 2019 - Present
+        when: December 2018 - Present
+        lines:
+          - prefix: React Configurator
+            content: Designed and implemented a new Configurator application using the React framework, Redux, and our Product Data REST API
+
+          - prefix: Release Management
+            content: Owned the release processes of our production site that sees over two million visitors each year
+
+          - prefix: DevOps Pipeline
+            content: Utilized Docker, TeamCity, Octopus, and bash scripting to create a Continuous Integration and Deployment pipeline that reduced time taken to deploy new changes to testing environments in Acquia
+            # content: Established a Continuous Integration and Deployment pipeline using Docker, TeamCity, Octopus, Acquia, and bash scripting that reduced time taken to release new changes to testing environments
+
+          - prefix: Development Architecture
+            content: Designed the solution architecture for all of the functionalities of the HON Company's site refresh project, such as data migrations, internal site search, and interactive multi-dimensional product configuration
+
+          - prefix: Elasticsearch Data Migration
+            content: Created a migration tool to pull 3D Design data from a remote REST API then send the data to an Elasticsearch cluster with PHP using the Drupal Migrate API
+
+          - prefix: Project and Task Management
+            content: Oversaw development task workflow and requirement gathering in Jira to ensure high throughput
+            # Experience breaking down implementation tasks, mentoring team members, and assigning duties
+
+          - prefix: Code Standards
+            content: Determined and documented the team's coding standards for the new project including functional programming, immutability, Behat for behavioral testing and PHPUnit for unit testing, and the CSS BEM methodology
+
+          # - prefix: Consultant Collaboration
+          #   content: Facilitated brainstorming sessions with consultants aimed at discovering and designing implementation solutions for new functionality
+
+          # - prefix: Interviewing Candidates
+          #   content: Determined the hirability of new candidates for developer and project manager positions after several team members had left the company
+
+          # - prefix: Simplified Data Hierarchy
+          #   content: Constructed a product data schema that optimized the queries behind the configuration functionality of our company's thousands of product offerings
+
+          # - prefix: Team Systems Lead
+          #   content: ''
+
+          # - prefix: Search Optimization
+          #   content: Researched alternatives solutions when our site's internal search was too slow and then switched to the Drupal community Search API modules at no extra cost
+            # content:Persuaded leadership to switch to the Drupal community Search API modules in order to reduce response time and simplify our search infrastructure at no extra cost
+      # - title: Programmer Analyst
+      #   when: December 2018 - September 2019
+      #   lines:
+
+          # - prefix: Development Process Enhancement
+          #   content: Collaborated on a team to design a new development and deployment process for the inclusion of Kanban into our day to day processes
+
+          - prefix: Code Reviews
+            content: Critiqued the code of other developers on the team on a daily basis in order to adhere to our code standards and ensure codebase quality
+
+          - prefix: C# Self-Taught Expertise
+            content: Learned and utilized C#.NET in order to add sorting to a REST API used by the entire corporation that wrapped an Elasticsearch cluster
+
+          # - prefix: Self-Taught Expertise
+          #   content: Became the subject matter expert of our internal site's search when no one else knew how it functioned then made enhancements to that functionality
+
+          - prefix: Data Warehouse Migration
+            content: Enabled site administrators to import and update content more freely by designing and creating a new data migration suite using the Drupal Migrate Module that reduced their import time by 300%
+
+          - prefix: Drupal Site Development
+            content: Wrote PHP, HTML, CSS, and JavaScript on a daily basis in order to add new functionality to or fix bugs on the HON Company's website
+
+          # - prefix: Onboarding Materials
+          #   content: Designed a programming presentation for new developers with the goal of establishing the baseline coding knowledge set and promoting developer comradery
+
+  - title: Technology Services Group (TSG)
+    where: Chicago IL
+    roles:
+      - title: Software Developer
+        when: Septemper 2016 - January 2018
+        projects:
+          - title: Open Annotate Video Application Project
+            lines:
+              - prefix: Angular 4
+                content: Quickly learned and utilized TypeScript in the Angular 4 framework for development on this application
+              # - prefix: Research and Testing
+              #   content: Implemented and tested new libraries and features quickly in order to determine their usefulness in the scope of this application
+              - prefix: Network Proxy
+                content: Utilized an Apache Server as a front for a Tomcat server to connect this application to the business's document repository and accompanying applications without errors
+
+          - title: New York Philharmonic Client Project
+            lines:
+              - prefix: Java OpenMigrate Framework
+                content: Organized and configured seven instances of document migrations using the company's OpenMigrate Java Spring application for building and running custom document migrations
+              - prefix: Hadoop Document Migration
+                content: Developed the specialized migrations of musical documents from an outdated Alfresco repository to a new Hadoop instance
+              # - prefix: Migration Plan
+              #   content: Constructed and implemented a migration plan for moving 9 terabytes of data before their Alfresco license expired
+              # - prefix: Automated Business Operations
+              #   content: Created the plan for the automated ingestion of new documents to their archive of musical documents based on their existing business processes
+              # - prefix: Effective Interface Integration
+              #   content: Consolidated their migration processes from existing in several separate applications to being custom actions inside of one centralized interface
+              # - prefix: Business Analysis
+              #   content: Held meetings with the client to ascertain details about their old system and to demonstrate the use of the new system that was being introduced to them
+projects:
+  - prefix: Custom Node.js Static Site Generation
+    content: Utilized Node.js and Mustache to create a custom build process on the Zeit hosting platform service to serve my personal site
+  - prefix: Hyperapp Socket Application
+    content: Created a web application with Hyperapp that serves lines of a script to participants' phones from a Node.js Socket.io server running on DigitalOcean so that they could act out a play in real time
+  - prefix: Mancala Artificial Intelligence
+    content: Wrote a program in Node.js that would recursively play every possible game of Mancala and estimate the probability of winning based on a given move
+  - prefix: WebRTC Remote Soundboard
+    content: Utilized React Hooks, a Node.js Socket server, and WebRTC P2P connections in order to allow several clients to play sounds from a soundboard on one device
+education:
+  place: Bradley University
+  where: Peoria IL
+  when: Graduated May 2016
+  degree: Bachelor's of Science
+  major: Computer Science and Mathematics
+

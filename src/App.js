@@ -69,7 +69,9 @@ const Company = ({ c: { title, where, roles } }) => (
 const SkillSection = ({ title, skills, width }) => {
   return (
     <div className="SkillSection" style={{ width }}>
-      <div className="title">{title}:</div>
+      {
+        !!title && <div className="title">{title}:</div>
+      }
       {
         skills.map(s => (
           <div key={s} className="skill">
@@ -86,7 +88,13 @@ const Pipe = () => <>&nbsp;&nbsp;|&nbsp;&nbsp;</>
 const Header = ({ name, phone, website, email }) => (
   <div className="Header">
     <h1>{name}</h1>
-    <div>{email}<Pipe />{phone}<Pipe />{website}</div>
+    <div>
+      {[
+        email && <>{email}</>,
+        phone && <><Pipe />{phone}</>,
+        website && <><Pipe />{website}</>
+      ]}
+    </div>
   </div>
 )
 
@@ -120,6 +128,9 @@ function App() {
 
   const skillsSectionWidth = `${100 / skillSections.length}%`
 
+  const urlParams = new URLSearchParams(window.location.search);
+  const businessName = urlParams.get('bn');
+
   return (
     <div className="App">
       <Header
@@ -128,7 +139,38 @@ function App() {
         email={email}
         website={website}
       />
-      <Section title="Skills">
+      <Section title="Career-Objective">
+        <div className="ObjectiveWrapper">
+          <div className="Objective">
+            Results-oriented and data driven professional with 2.5+ years of experience and proven knowledge of process improvement and lead times. Aspiring to add value with my skills and effectively fill the role at { businessName }.
+          </div>
+        </div>
+      </Section>
+      <Section title="Experience">
+        {
+          companies.map((c) =>
+            <Company key={c.title} c={c} />
+          )
+        }
+      </Section>
+      {
+        !!projects && (
+          <Section title="Projects">
+            <PrefixLines lines={projects}/>
+          </Section>
+        )
+      }
+      <Section title="Education">
+        <div className="Education">
+          <div>
+            { e.place }<Pipe />{ e.where }<Pipe />{ e.when }
+          </div>
+          <div>
+            <strong>{ e.degree }:</strong> { e.major }
+          </div>
+        </div>
+      </Section>
+      <Section title="Skills &amp; Involement">
         <div className="skillsWrapper">
         {
           skillSections.map(({ title, skills }) =>
@@ -140,26 +182,6 @@ function App() {
             />
           )
         }
-        </div>
-      </Section>
-      <Section title="Experience">
-        {
-          companies.map((c) =>
-            <Company key={c.title} c={c} />
-          )
-        }
-      </Section>
-      <Section title="Projects">
-        <PrefixLines lines={projects}/>
-      </Section>
-      <Section title="Education">
-        <div className="Education">
-          <div>
-            { e.place }<Pipe />{ e.where }<Pipe />{ e.when }
-          </div>
-          <div>
-            <strong>{ e.degree }:</strong> { e.major }
-          </div>
         </div>
       </Section>
     </div>
