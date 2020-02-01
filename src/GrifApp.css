@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+}
+
+.GrifApp {
+  position: relative;
+  height: calc(11in - 60px);
+  width: calc(8.5in - 60px);
+  border: 1px solid black;
+  margin: auto;
+}
+
+@media print {
+  .GrifApp {
+    border: 0;
+  }
+}
+
+.GrifApp .Header {
+  text-align: center;
+  padding-bottom: 6px;
+}
+
+.GrifApp .Header h1 {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 6px 0 6px 0;
+}
+
+.GrifApp .Header div {
+  font-size: 0.7em;
+}
+
+.GrifApp .Section {
+  padding: 3px 0;
+  text-align: center;
+}
+
+.GrifApp .SectionHeader {
+  position: relative;
+  padding-bottom: 3px;
+}
+
+.GrifApp .SectionHeader hr {
+  border: 1px solid black;
+  width: 90%;
+}
+
+.GrifApp .SectionHeader > .title {
+  transform: translateY(-50%)translateX(-50%);
+  position: absolute;
+  background: white;
+  padding: 0 6px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.GrifApp .Section .contents {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.GrifApp .Section > .contents > .skillsWrapper {
+  padding-left: 40px;
+}
+
+.GrifApp .SkillSection {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+
+.GrifApp .SkillSection > .title {
+  font-weight: bold;
+  padding-bottom: 3px;
+  font-size: 0.9em;
+}
+
+.GrifApp .SkillSection > .skill {
+  font-size: 0.85em;
+}
+
+.GrifApp .Company > h3 {
+  font-weight: normal;
+  margin: 0;
+  padding-bottom: 3px;
+  font-size: 1.05em;
+}
+
+.GrifApp .Role > .title {
+  padding: 3px 0;
+  font-size: 0.9em;
+}
+
+.GrifApp .Project > .title {
+  font-size: 0.9em;
+}
+
+.GrifApp .Lines > ul {
+  padding: 3px 50px;
+  margin: 0;
+}
+
+.GrifApp .Lines > ul > li.Line {
+  text-align: left;
+  padding: 3px 0;
+  font-size: 0.85em;
+}
+
+.GrifApp .Education > div {
+  padding: 3px 0;
+}

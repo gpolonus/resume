@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './QuetaApp.css';
 import data from './queta-data'
 
 const Lines = ({ lines }) => (
@@ -114,7 +114,7 @@ const Section = ({ title, children }) => (
   </div>
 )
 
-function App({ bn: businessName }) {
+function QuetaApp({ bn: businessName }) {
   const {
     name,
     phone,
@@ -129,7 +129,7 @@ function App({ bn: businessName }) {
   const skillsSectionWidth = `${100 / skillSections.length}%`
 
   return (
-    <div className="App">
+    <div className="QuetaApp">
       <Header
         name={name}
         phone={phone}
@@ -185,4 +185,4 @@ function App({ bn: businessName }) {
   );
 }
 
-export default App;
+export default QuetaApp;
