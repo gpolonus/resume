@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import data from './data'
+import data from './queta-data'
 
 const Lines = ({ lines }) => (
   <div className="Lines">
@@ -114,7 +114,7 @@ const Section = ({ title, children }) => (
   </div>
 )
 
-function App() {
+function App({ bn: businessName }) {
   const {
     name,
     phone,
@@ -127,9 +127,6 @@ function App() {
   } = data
 
   const skillsSectionWidth = `${100 / skillSections.length}%`
-
-  const urlParams = new URLSearchParams(window.location.search);
-  const businessName = urlParams.get('bn');
 
   return (
     <div className="App">
