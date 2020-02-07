@@ -2,6 +2,7 @@ name: Griffin Polonus
 phone: '309-678-0928'
 email: gpolonus@gmail.com
 website: grifstuf.com
+github: gpolonus
 skillSections:
   - title: Languages
     skills:
@@ -15,8 +16,8 @@ skillSections:
       # - Python
   - title: Frontend
     skills:
-      - React
-      - Redux
+      - React and Redux
+      - Angular
       - Webpack, Rollup
       - Jasmine
   - title: Backend

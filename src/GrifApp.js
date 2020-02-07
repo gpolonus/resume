@@ -1,11 +1,11 @@
 import React from 'react';
-import './App.css';
-import data from './data'
+import './GrifApp.css';
+import data from './grif-data'
 
 const Lines = ({ lines }) => (
   <div className="Lines">
     <ul>
-      {
+    {
         lines.map(({ content }) => (
           <li key={content} className="Line">
             { content }
@@ -83,10 +83,10 @@ const SkillSection = ({ title, skills, width }) => {
 
 const Pipe = () => <>&nbsp;&nbsp;|&nbsp;&nbsp;</>
 
-const Header = ({ name, phone, website, email }) => (
+const Header = ({ name, phone, website, email, github }) => (
   <div className="Header">
     <h1>{name}</h1>
-    <div>{email}<Pipe />{phone}<Pipe />{website}</div>
+<div>{email}<Pipe />{phone}<Pipe /><a href={`https://github.com/${github}`}>github.com/{github}</a><Pipe /><a href={`https://${website}`}>{website}</a></div>
   </div>
 )
 
@@ -106,12 +106,13 @@ const Section = ({ title, children }) => (
   </div>
 )
 
-function App() {
+function GrifApp() {
   const {
     name,
     phone,
     email,
     website,
+    github,
     companies,
     skillSections,
     projects,
@@ -121,12 +122,13 @@ function App() {
   const skillsSectionWidth = `${100 / skillSections.length}%`
 
   return (
-    <div className="App">
+    <div className="GrifApp">
       <Header
         name={name}
         phone={phone}
         email={email}
         website={website}
+        github={github}
       />
       <Section title="Skills">
         <div className="skillsWrapper">
@@ -166,4 +168,4 @@ function App() {
   );
 }
 
-export default App;
+export default GrifApp;

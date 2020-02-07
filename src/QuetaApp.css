@@ -2,7 +2,8 @@ body {
   margin: 0;
 }
 
-.App {
+.QuetaApp {
+  font-family: 'Lato', sans-serif;
   position: relative;
   height: calc(11in - 60px);
   width: calc(8.5in - 60px);
@@ -11,103 +12,116 @@ body {
 }
 
 @media print {
-  .App {
+  .QuetaApp .QuetaApp {
     border: 0;
   }
 }
 
-.Header {
+.QuetaApp .Header {
   text-align: center;
   padding-bottom: 6px;
 }
 
-.Header h1 {
-  font-family: 'Courier New', Courier, monospace;
+.QuetaApp .Header h1 {
+  font-family: 'Noto Serif', serif;
   margin: 0;
   padding: 6px 0 6px 0;
 }
 
-.Header div {
-  font-size: 0.7em;
+.QuetaApp .Header div {
+  font-size: 0.8em;
 }
 
-.Section {
+.QuetaApp .Section {
   padding: 3px 0;
   text-align: center;
 }
 
-.SectionHeader {
+.QuetaApp .SectionHeader {
   position: relative;
   padding-bottom: 3px;
 }
 
-.SectionHeader hr {
+.QuetaApp .SectionHeader hr {
   border: 1px solid black;
   width: 90%;
 }
 
-.SectionHeader > .title {
+.QuetaApp .SectionHeader > .title {
   transform: translateY(-50%)translateX(-50%);
   position: absolute;
   background: white;
   padding: 0 6px;
   font-weight: bold;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Noto Serif', serif;
 }
 
-.Section .contents {
-  font-size: 0.8em;
+.QuetaApp .Section .contents {
+  font-size: 0.87em;
   text-align: center;
 }
 
-.Section > .contents > .skillsWrapper {
+.QuetaApp .Section > .contents > .ObjectiveWrapper {
+  text-align: center;
+}
+
+.QuetaApp .Section > .contents > .ObjectiveWrapper > .Objective {
+  width: 90%;
+  text-align: center;
+  font-size: 0.85em;
+  display: inline-block;
+}
+
+.QuetaApp .Section > .contents > .skillsWrapper {
   padding-left: 40px;
 }
 
-.SkillSection {
+.QuetaApp .SkillSection {
   position: relative;
   display: inline-block;
   vertical-align: top;
   text-align: left;
 }
 
-.SkillSection > .title {
+.QuetaApp .SkillSection > .title {
   font-weight: bold;
   padding-bottom: 3px;
   font-size: 0.9em;
 }
 
-.SkillSection > .skill {
+.QuetaApp .SkillSection > .skill {
   font-size: 0.85em;
 }
 
-.Company > h3 {
+.QuetaApp .Company > h3 {
   font-weight: normal;
   margin: 0;
   padding-bottom: 3px;
   font-size: 1.05em;
 }
 
-.Role > .title {
+.QuetaApp .Role > .title {
   padding: 3px 0;
   font-size: 0.9em;
 }
 
-.Project > .title {
+.QuetaApp .Project > .title {
   font-size: 0.9em;
+  text-decoration: underline;
 }
 
-.Lines > ul {
+.QuetaApp .Lines > ul {
   padding: 3px 50px;
   margin: 0;
 }
 
-.Lines > ul > li.Line {
+.QuetaApp .Lines > ul > li.Line {
   text-align: left;
   padding: 3px 0;
   font-size: 0.85em;
 }
 
-.Education > div {
+.QuetaApp .Education > div {
   padding: 3px 0;
+  font-size: 0.85em;
 }

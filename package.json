@@ -15,8 +15,10 @@
   "scripts": {
     "start": "npm run build-data && react-scripts start",
     "build": "npm run build-data && react-scripts build",
-    "build-data": "npx yaml2json ./data.yml > ./src/data.json",
-    "start-data": "onchange './data.yml' -- npm run build-data"
+    "start-data": "onchange './queta-data.yml' './grif-data.yml' -- npm run build-data",
+    "build-data": "npm run build-grif-data && npm run build-queta-data",
+    "build-queta-data": "npx yaml2json ./queta-data.yml > ./src/queta-data.json",
+    "build-grif-data": "npx yaml2json ./grif-data.yml > ./src/grif-data.json"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -1,0 +1,65 @@
+name: Enriqueta Polonus
+phone: '309-678-9253'
+email: egpolonus@gmail.com
+skillSections:
+  - skills:
+      - Spanish (Native Speaker)
+      - French
+      - Advanced Excel Formulas
+      - Microsoft Power BI and DAX
+      - Power Query and Power Pivot
+  - skills:
+      - APICS Member – CPIM Expected March 2020
+      - Junior Achievement
+      - Young Professionals Network
+      - Women in STEM
+
+
+
+companies:
+  - title: HNI Corporation
+    where: Muscatine IA
+    roles:
+      - title: Supply Chain Analyst II
+        when: September 2019 - Present
+        lines:
+          - content: Pioneered the use of Microsoft Power BI at HNI and helped other functional areas integrate this tool into their reporting structure
+          - content: Recovered 40 labor hours by transitioning reports and manual processes to Microsoft Power BI
+          - content: Created and tracked performance metrics for order execution and order experience using Microsoft Power BI
+          - content: Led and participated in Rapid Continuous Improvement events inside and outside my functional area
+          - content: Directed quarterly meetings with operations and marketing leadership to review standard lead times for all our product offerings across all brands
+      - title: Supply Chain Analyst I
+        when: May 2018 – September 2019
+        lines:
+          - content: Generated over 1 million dollars in cost savings over one year by processing and analyzing orders in Oracle EBS to level out distribution center capacity
+          - content: Achieved over 90% lead time compliance for our four major brands by reviewing production capacity and working with schedulers
+          - content: Supported IT in implementing a new customer facing E-Ordering and quoting system
+      - title: Supply Chain Analyst – Early Career Rotational Program
+        when: June 2017 - May 2018
+        projects:
+          - title: Transportation
+            lines:
+              - content: Evaluated one of our delivery programs that resulted in a $250,000 cost reduction opportunity and better customer delivery experience
+              - content: Uncovered $500,000 in extra delivery costs due to sourcing issues
+              - content: Assisted in the company wide transition from an in-house ERP system to Oracle’s ERP system
+          - title: Master Planning
+            lines:
+              - content: Created a process to report product lead times to the market on a weekly basis creating a time savings of 8+ hours per week
+          - title: New Product Introduction
+            lines:
+              - content: Worked with our suppliers to prepare EAUs for all our new products and upcoming discontinuations
+              - content: Conducted supplier evaluations to determine the best supplier for our new products
+          - title: Quality Engineering
+            lines:
+              - content: Constructed an electronic production control board to stop quality issues on the production line and record valuable quality data in real time
+              - content: Performed a PFMEA for the sewing production cell to increase line efficiency, reduce quality issues, and provide a better work environment for the employees
+          - title: Long Lead Time Group
+            lines:
+              - content: Created a supplier scorecard to track supplier performance on KPIs and create mutual accountability with our suppliers
+education:
+  place: Bradley University
+  where: Peoria IL
+  when: Graduated May 2017
+  degree: Bachelor's of Science
+  major: Marketing – Global Supply Chain Management, International Business, French
+
