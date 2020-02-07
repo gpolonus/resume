@@ -83,10 +83,10 @@ const SkillSection = ({ title, skills, width }) => {
 
 const Pipe = () => <>&nbsp;&nbsp;|&nbsp;&nbsp;</>
 
-const Header = ({ name, phone, website, email }) => (
+const Header = ({ name, phone, website, email, github }) => (
   <div className="Header">
     <h1>{name}</h1>
-    <div>{email}<Pipe />{phone}<Pipe />{website}</div>
+<div>{email}<Pipe />{phone}<Pipe />github.com/{github}<Pipe />{website}</div>
   </div>
 )
 
@@ -112,6 +112,7 @@ function GrifApp() {
     phone,
     email,
     website,
+    github,
     companies,
     skillSections,
     projects,
@@ -127,6 +128,7 @@ function GrifApp() {
         phone={phone}
         email={email}
         website={website}
+        github={github}
       />
       <Section title="Skills">
         <div className="skillsWrapper">
