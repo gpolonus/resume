@@ -86,7 +86,7 @@ const Pipe = () => <>&nbsp;&nbsp;|&nbsp;&nbsp;</>
 const Header = ({ name, phone, website, email, github }) => (
   <div className="Header">
     <h1>{name}</h1>
-<div>{email}<Pipe />{phone}<Pipe />github.com/{github}<Pipe />{website}</div>
+<div>{email}<Pipe />{phone}<Pipe /><a href={`https://github.com/${github}`}>github.com/{github}</a><Pipe /><a href={`https://${website}`}>{website}</a></div>
   </div>
 )
 
