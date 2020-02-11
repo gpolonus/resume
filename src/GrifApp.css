@@ -6,7 +6,7 @@ body {
   position: relative;
   height: calc(11in - 60px);
   width: calc(8.5in - 60px);
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: auto;
 }
 
