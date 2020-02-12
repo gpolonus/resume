@@ -10,9 +10,9 @@ skillSections:
       - TypeScript
       # - HTML, CSS, and SCSS
       # - Clojure
-      - Java
       - PHP
       - Haskell
+      - Java
       # - Python
   - title: Frontend
     skills:
