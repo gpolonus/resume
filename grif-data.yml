@@ -22,15 +22,15 @@ skillSections:
       - Jasmine
   - title: Backend
     skills:
-      - Node and Express.js
-      - Java Spring
       - Drupal
+      - Node and Express.js
       - Apollo GraphQL
+      - Java Spring
       # - Flask
   - title: Databases
     skills:
-      - Elasticsearch
       - SQL, SQLite, MySQL
+      - Elasticsearch
       - MongoDB
       - HBase / Hadoop
       # - Solr
