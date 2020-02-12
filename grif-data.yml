@@ -60,7 +60,7 @@ companies:
             # content: Established a Continuous Integration and Deployment pipeline using Docker, TeamCity, Octopus, Acquia, and bash scripting that reduced time taken to release new changes to testing environments
 
           - prefix: Development Architecture
-            content: Designed the solution architecture for all of the functionalities of the HON Company's site refresh project, such as data migrations, internal site search, and interactive multi-dimensional product configuration
+            content: Designed the solution architecture for all of the functionalities of the HON Company's Drupal 8 site refresh project, such as data migrations, internal site search, and interactive multi-dimensional product configuration
 
           - prefix: Elasticsearch Data Migration
             content: Created a migration tool to pull 3D Design data from a remote REST API then send the data to an Elasticsearch cluster with PHP using the Drupal Migrate API
